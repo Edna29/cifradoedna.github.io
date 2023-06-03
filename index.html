@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="style.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@200&display=swap" rel="stylesheet">        
+        <title>Challenge One Next</title>
+    </head>
+    <body>
+        <header>
+            <img src="imagenes/Logo.svg" alt="logo de Alura" class="logo">
+        </header>
+        <main>
+            <section class="seccion1">
+                <div class="contenedorcajatexto">
+                    <textarea  placeholder="Ingrese texto aqui"class="cajatexto"></textarea>
+                </div>
+                <div class="alerta">
+                    <img src="imagenes/alerta.svg" alt="alerta">
+                    <p>Solo letras minúsculas y sin acentos</p>
+                </div>
+                <div class="contenedor-botones">
+                    <input type="button" class="btn-encriptar" value="Encriptar">
+                    <input type="button" class="btn-desencriptar" value="Desencriptar">
+                </div>
+            </section>
+            <section class="seccion2">
+                <div class="contenedormuñeco">
+                    <img src="imagenes/Muñeco.svg" alt="muñeco">
+                </div>
+                <div class="contenedor-parrafo">
+                    <h3>Ningún mensaje fue <br> encontrado</h3>
+                    <p>Ingresa el texto que deses encriptadar <br> o desencriptadar</p>
+                </div>
+                <div class="contenedor-copiar">
+                    <input type="button" class="btn-copiar" value="Copiar">
+                </div>
+                <div class="contenedor-resultado">
+                    <p class="texto-resuelto"></p>
+                </div>
+            </section>
+        </main>
+        <script src="scrip.js"> </script>
+    </body>
+</html>
